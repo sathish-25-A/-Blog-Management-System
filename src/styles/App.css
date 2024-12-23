@@ -1,0 +1,199 @@
+/* General reset and global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  button {
+    font-family: inherit;
+    cursor: pointer;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styling */
+  header {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #6c5ce7;
+    color: white;
+    margin-bottom: 30px;
+    border-radius: 15px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 3rem;
+    letter-spacing: 1px;
+  }
+  
+  /* Buttons */
+  button,
+  a.button {
+    display: inline-block;
+    padding: 12px 18px;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  a.button {
+    text-align: center;
+  }
+  
+  button:hover,
+  a.button:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+  }
+  
+  .create-button {
+    background-color: #28a745;
+  }
+  
+  .update-button {
+    background-color: #ffc107;
+  }
+  
+  .view-button {
+    background-color: #007bff;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+  }
+  
+  /* Button hover effects */
+  .create-button:hover {
+    background-color: #218838;
+  }
+  
+  .update-button:hover {
+    background-color: #e0a800;
+  }
+  
+  .view-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  form label {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #444;
+  }
+  
+  form input,
+  form textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: border 0.3s ease;
+  }
+  
+  form input:focus,
+  form textarea:focus {
+    border-color: #6c5ce7;
+    outline: none;
+  }
+  
+  /* Blog List */
+  .blog-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .blog-item {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .blog-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .blog-title {
+    font-size: 2rem;
+    margin-bottom: 12px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .blog-content {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .blog-actions {
+    display: flex;
+    gap: 15px;
+  }
+  
+  /* Blog Post */
+  .blog-post {
+    text-align: left;
+  }
+  
+  .blog-post-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .blog-post-content {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 30px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    color: #777;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  

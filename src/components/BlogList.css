@@ -1,0 +1,63 @@
+/* BlogList.css */
+
+/* Set a light background color for the entire BlogList container */
+.blog-list {
+    background-color: #f4f4f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add some styling for the blog list */
+  .blog-list h1 {
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  .blog-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .blog-list li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-list li h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .blog-list li p {
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  .blog-list button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+  }
+  
+  .blog-list button:hover {
+    background-color: #45a049;
+  }
+  
+  .blog-list button:active {
+    background-color: #388e3c;
+  }
+  
+  .blog-list a {
+    text-decoration: none;
+  }
+  
